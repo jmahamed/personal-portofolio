@@ -1,0 +1,42 @@
+[
+    {   
+       "id": 1,
+       "title": "Coffee Subscription Site",
+       "detail": "This is a 3-page website to advertise and subscribe to a coffee delivery service. Interactive features includes an accordion that allows you to select details of your subscribtion and a pop-up confirming these details. Made using HTML, CSS and Javascript.",
+       "image": "./images/project1.png",
+       "live": "https://coffee-roasters-site-roan.vercel.app/",
+       "code": "https://github.com/jmahamed/coffee-roasters-site"
+    },
+    {
+        "id": 2,
+        "title": "React Weather App",
+        "detail": "This app is made using React and Vite. I used a weather API to fetch data and plain html and css to build the UI. You just type the city you want to look up, press enter and the weather information pops up. I used useState to check weather the weather is hot and a corresponding background image is rendered when the location is typed in.",
+        "image": "./images/project2.png",
+        "live": "https://weather-app-react-vite.vercel.app/",
+        "code": "https://github.com/jmahamed/weather-app-react-vite/blob/master/src/App.jsx"
+    },
+    {
+        "id": 3,
+        "title": "Bookmark Landing Page",
+        "detail": "This website is made using HTML, CSS and javascript. It features an Interactive accordion and a tabbed section. When you click on a tab the corresponding card appears. This website is also fully responsive with a mobile navbar.",
+        "image": "./images/project3.png",
+        "live": "https://jmahamed.github.io/bookmark-landing-page/",
+        "code": "https://github.com/jmahamed/bookmark-landing-page"
+    },
+    {
+        "id": 4,
+        "title": "Easybank Landing Page",
+        "detail": "This website is made using HTML, CSS and javascript. Fully responsive with a mobile navbar. I really put my CSS layout skills to the test with this one!",
+        "image": "./images/project4.png",
+        "live": "https://bank-landing-page-liard.vercel.app",
+        "code": "https://github.com/jmahamed/bank-landing-page"
+    },
+    {
+        "id": 5,
+        "title": "Personal Portofolio",
+        "detail": "I went all out on this one by using Next.js. Layout is made using vanilla CSS and the projects section is made with a reuseable project component where the data is mapped from a JSON file.",
+        "image": "./images/project5.png",
+        "live": "https://bank-landing-page-liard.vercel.app",
+        "code": "https://github.com/jmahamed/personal-portofolio"
+    }
+]

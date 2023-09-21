@@ -1,0 +1,131 @@
+.hero {
+    display: flex;
+    height: 100vh;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    width: 800px;
+}
+
+.hero-txt{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 40px;
+    align-items: center;
+    gap: 30px;
+    width: 750px;
+    height: 160px;
+    color: white;
+}
+
+.profile-img {
+    border-radius: 50%;
+    box-shadow: 1px 2px 100px 0.5px rgba(122, 37, 111, 0.658);
+}
+
+.tech-stack {
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    margin-top: 30px;
+}
+
+.tech-header{
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.tech {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 30px;
+    width: 130px;
+    margin-bottom: 70px;
+    background: rgba( 83, 223, 195, 0.45 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur(110px );
+    -webkit-backdrop-filter: blur(100px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.048);
+}
+
+.tech:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: #53dfc3;
+}
+
+.swipe-projects {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+}
+
+.project-link {
+  text-decoration: none;
+}
+
+@keyframes jumpInfinite {
+    0% {
+      margin-top: 0;
+    }
+    50% {
+      margin-top: 10px;
+    }
+    100% {
+      margin-top: 0;
+    }
+  }
+
+  .arrow-down {
+    animation: jumpInfinite 1.3s infinite;
+  }
+
+  @media only screen and (max-width: 600px) {
+
+    body {
+      overflow-x: hidden;
+    }
+    .hero {
+      margin-top: 70px;
+    }
+
+    .hero-txt {
+      width: 400px;
+    }
+
+    .hero-txt h1 {
+      font-size: 25px;
+    }
+
+    .hero-txt p {
+      font-size: 14px
+    }
+
+    .tech-header {
+      font-size: 22px;
+    }
+
+    .tech-stack {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 10px;
+      width: 350px;
+      margin-bottom: 30px;
+    }
+
+    .tech {
+      font-size: 11px;
+      width: 90px;
+      padding: 5px 10px;
+      gap: 5px;
+      margin-bottom: 20px;
+    }
+  }
