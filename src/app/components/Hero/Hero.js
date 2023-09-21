@@ -28,7 +28,7 @@ const Hero = () => {
       />
       <div className="hero-txt">
         <h1>
-          Hi, I'm <span> Jamila Mahamed </span>
+          Hi, I am <span> Jamila Mahamed </span>
         </h1>
         <p>
           I am a junior front-end developer. I love making <br /> responsive and
