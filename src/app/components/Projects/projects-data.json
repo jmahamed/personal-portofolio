@@ -34,9 +34,9 @@
     {
         "id": 5,
         "title": "Personal Portofolio",
-        "detail": "I went all out on this one by using Next.js. Layout is made using vanilla CSS and the projects section is made with a reuseable project component where the data is mapped from a JSON file.",
+        "detail": "I went all out on this one by using Next.js. Layout is made using vanilla CSS and the projects section is made with a reuseable project component where the data is mapped from a JSON file. Also responsive!",
         "image": "./images/project5.png",
-        "live": "https://bank-landing-page-liard.vercel.app",
+        "live": "https://personal-portofolio-c4xv.vercel.app/",
         "code": "https://github.com/jmahamed/personal-portofolio"
     }
 ]
