@@ -1,6 +1,6 @@
 'use client';
 import './Projects.css'
-import data from './projects-data.JSON'
+import data from './projects-data.json'
 
 const Projects = () => {
     return (
