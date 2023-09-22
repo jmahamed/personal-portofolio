@@ -38,5 +38,13 @@
         "image": "./images/project5.png",
         "live": "https://personal-portofolio-c4xv.vercel.app/",
         "code": "https://github.com/jmahamed/personal-portofolio"
+    },
+    {
+        "id": 6,
+        "title": "Countries Rest Api",
+        "detail": "This app pulls data from the rest countries api and I used React.js to render the data in country cards. It is also possible to search for a country using the input field and if your eyes grow weary from the brightness of the page, you can switch to dark mode!",
+        "image": "./images/project6.png",
+        "live": "https://countries-rest-api-phi.vercel.app/",
+        "code": "https://github.com/jmahamed/countries-rest-api"
     }
 ]
